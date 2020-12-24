@@ -19,4 +19,4 @@ const palindrome = (text) => {
 palindrome('Coba')
 palindrome('Kasur Rusak')
 
-// // link sumber https://medium.com/aufabillah/reverse-string-javascript-d51a6cc1a1cd
+// link sumber https://medium.com/aufabillah/reverse-string-javascript-d51a6cc1a1cd
