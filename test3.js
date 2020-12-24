@@ -5,12 +5,13 @@ const divideAndSort = (number) => {
     // validasi digit inputan
     if( str.length <= 16) {
       const array = str.split('0') // bentuk array dari hasil str di split('0')
-      console.log(array) // hasil arraynya
+      // console.log(array) // hasil arraynya
       const hasil = array.map( (element) => {
         return element.split('').sort().join('')
       })
-      console.log(hasil) // hasil setelah disortir perelement arraynya
-      console.log(hasil.join('')) // hasil akhir
+      // console.log(hasil) // hasil setelah disortir perelement arraynya
+      const output = parseInt(hasil.join(''))
+      console.log(output) // hasil akhir
 
     } else {
       console.log(`Oops, maksimal input data 16 digit!`)
@@ -19,5 +20,5 @@ const divideAndSort = (number) => {
     console.log('Type data harus number')
   }
 }
-
 divideAndSort(5956560159466056)
+// divideAndSort(5956560159466056012)

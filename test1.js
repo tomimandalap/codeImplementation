@@ -16,7 +16,11 @@ const palindrome = (text) => {
   }
 }
 
-palindrome('Coba')
-palindrome('Kasur Rusak')
+// palindrome('Coba')
+palindrome(134567)
+
+
+
+
 
 // link sumber https://medium.com/aufabillah/reverse-string-javascript-d51a6cc1a1cd
